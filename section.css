@@ -1,0 +1,242 @@
+#section2{
+    /* border: 4px solid red; */
+    width:100%;
+    height:100vh;
+    display: flex;
+    /* flex:1; */
+}
+#a1,#a2,#a3{
+    /* border:3px solid green; */
+    height: 100vh;
+    width: 100%;
+}
+#a1{
+    background-color: #fff;
+}
+#div2 {
+    display: flex;
+    /* border:3px solid red; */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#a2>h1{
+    /* border: 3px solid red; */
+    /* display: inline; */
+    font-weight: 900;
+    font-size: 35px;
+    height: 50px;
+    width: 200px;
+    margin-left:45px;
+    margin-top: 35px;
+}
+#step {
+    width: 75%;
+    height: 85px;
+    /* border: 4px solid green ; */
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 17px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 15px;
+    padding-top:8px;
+    padding-left:8px;
+}
+
+#step i{
+    /* border: 3px solid red; */
+    position: absolute;
+    font-size: 35px;
+    width: 24px;
+    height: 34px;
+    margin-top: 10px;
+}
+
+#step .text h3 {
+    margin-left: 50px;
+    font-size: 26px;
+    font-weight: 600;
+     padding-left: 15px;
+}
+
+#step .text p {
+    padding-left: 15px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: #333;
+    font-size: 15px;
+}
+#stepl{
+    /* border:4px solid red ; */
+    display: flex;
+    width: 75%;
+    height: 89px;
+     margin-left: 60px;
+    margin-top: 17px;
+}
+#stepl img{
+    width: 55px;
+}
+#stepl h3{
+    margin-top: 5px;
+    padding-left: 15px;
+    
+    font-size: 26px;
+}
+#stepl p{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #333;
+}
+#step .text h3:hover{
+    color: #00dcf7;
+    cursor: pointer;
+    
+}
+#stepl h3:hover{
+    color: #00dcf7;
+    cursor: pointer;
+}
+#a3{
+    display: flex;
+}
+#section3{
+    width: 100%;
+    height: 100vh;
+    /* border: 3px solid red; */
+    background-color: #d7e0ea;
+}
+#div3{
+    /* border: 3px solid greenyellow; */
+    display: inline-block; 
+    justify-content: space-between;
+    margin-top:70px;
+}
+#div3 ul{
+    /* border: 3px solid red; */
+    display: flex;
+    list-style: none;
+    gap:90px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+#div3 ul li{
+    font-size: 24px;
+    font-family: CircularStd, sans-serif;
+    font-weight: 600;
+    color: #7e8daa;
+    z-index: 1;
+    opacity: 1;
+    outline:none;
+    transition:color .2s ease-in    ;
+    cursor: pointer; 
+}
+
+#div3 ul li:hover{
+    color: #000;
+
+}
+#para{
+    margin-top: 40px;
+    margin-left: 175px;
+    font-family: Heebo, sans-serif;
+    font-weight: 400;
+    display: block;
+    color:#212529;
+
+}
+#but{
+    margin-top: 45px;
+    margin-left: 175px;
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-weight:400;
+    font-size: 17px;
+    background-color: #00dcf7;
+}
+#back{
+    font-family: 'CircularStd';
+    color: white;
+    font-weight: 600;
+    font-size: 220px;
+    box-sizing: border-box;
+    alignment-baseline: middle;
+    text-anchor: middle;
+    fill: rgb(255, 255, 255);
+    display: block;
+    white-space: nowrap;
+    transform-origin: 0px 0px;
+    align-items: center;
+    text-align: center;
+}
+/* #span{
+    border:3px solid green;
+    position: absolute;
+    display:block;
+    width: 40%;
+    height: 400px;
+} */
+#span img{
+    /* border:3px solid green; */
+    margin-left: 690px;
+    height: 450px;
+    margin-top: -400px;
+}
+
+/* #section4 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    display:flex;
+} */
+
+#section4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* hide outer scroll */
+  padding: 0 2vw;
+  box-sizing: border-box;
+}
+
+.scroll {
+  display:flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#div4, #div5, #div6, #div7,#div8,#div9,#div10,#div11,#div12,#div13 {
+  flex: 0 0 30%;
+  height: 80vh;
+  width: 20%;
+  border: 2px solid red;
+  background-color: white;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}

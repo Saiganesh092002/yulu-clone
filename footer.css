@@ -1,0 +1,87 @@
+#section5{
+    border: 3px solid green ;
+    width: 100%;
+    height: 70vh;
+}
+
+#foot{
+    /* border: 5px solid black ; */
+    width: 100%;
+    height:100vh;
+    display: flex;
+    background-color: #071228;
+   
+}
+#f1{
+    /* border: 3px solid yellow; */
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 45px;
+}
+#f2 ul{
+    /* border: 3px solid yellow; */
+    justify-content: space-between;
+    list-style: none;
+    margin-top:45px;
+    margin-left: 45px;
+}
+#f2 ul li{
+    padding-top: 25px;
+    font-size:17px;
+    font-weight: 500;
+    font-family: "CircularStd", sans-serif;
+    color: #949cab;
+    cursor: pointer;
+}
+#f2 p{
+    /* border: 3px solid green; */
+    padding-top:15px;
+    line-height: 1.5;
+    margin-left: 45px;
+    font-family: "CircularStd", sans-serif;
+    color: #949cab;
+}
+#links{
+    /* border: 3px solid green; */
+    margin-top: 65px;
+    margin-left: 45px;
+    display: inline;
+}
+#links ul{
+    font-size:17px;
+    font-weight: 500;
+    list-style: none;
+}
+.img-fluid{
+    margin-top: 25px;
+    cursor: pointer;
+}
+#icon h3{
+    /* border: 4px solid red; */
+    display: flex;
+    margin-top:35px;
+    font-family: "CircularStd", sans-serif;
+}
+#i{
+    /* border: 4px solid red; */
+    width: 100%px;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+#i .fa-brands{
+    margin-left: 15px;
+    font-size: 25px;
+    color:#949cab;
+    cursor: pointer;
+}
+#last{
+    width: 100%;
+    height: 70px;
+    background-color: #071228;
+}
+#last p{
+    margin-top:20px;
+    margin-left:200px;
+    color: #949cab;
+}
